@@ -182,6 +182,13 @@ const obj ={
       1: "(abide by)accept or obey a rule or decision.",
       2: "(cannot abide) dislike greatly."
     }
+  },
+  26:{
+    word: "abiding",
+    type: "adjective",
+    meaning:{
+      1: "lasting; enduring."
+    }
   }
 }
 class Dictionary{
