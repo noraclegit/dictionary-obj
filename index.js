@@ -153,5 +153,37 @@ const obj ={
     meanings:{
       1: "encourage or help in wrongdoing."
     }
+  },
+  22:{
+    word:"abeyance",
+    type: "noun",
+    meanings:{
+      1: "in temporary disuse."
+    }
+  }
+}
+class Dictionary{
+  constructor(){
+    this.object = obj
+  }
+  get(id){
+    //get a word's data by its id
+    return this.object[id]
+  }
+  find(name){
+    //get a word by its name
+    const found = this.object.find(w => w.word == name)
+    if(!found){
+      return null
+    }else{
+    return found
+    }
+  }
+  array(){
+    const array = []
+    for(let prop in this.object){
+      array.push(this.object[prop])
+    }
+    return array;
   }
 }
