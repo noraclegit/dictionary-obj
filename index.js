@@ -167,6 +167,13 @@ const obj ={
     meanings:{
       1: "detest."
     }
+  },
+  24:{
+    word: "abhorrent",
+    type: "adjective",
+    meanings:{
+      1: "disgusting; hateful."
+    }
   }
 }
 class Dictionary{
