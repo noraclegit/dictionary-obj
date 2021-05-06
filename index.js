@@ -174,6 +174,14 @@ const obj ={
     meanings:{
       1: "disgusting; hateful."
     }
+  },
+  25:{
+    word: "abide",
+    type: "verb",
+    meanings:{
+      1: "(abide by)accept or obey a rule or decision.",
+      2: "(cannot abide) dislike greatly."
+    }
   }
 }
 class Dictionary{
