@@ -160,6 +160,13 @@ const obj ={
     meanings:{
       1: "in temporary disuse."
     }
+  },
+  23:{
+    word: "abhor",
+    type: "verb",
+    meanings:{
+      1: "detest."
+    }
   }
 }
 class Dictionary{
